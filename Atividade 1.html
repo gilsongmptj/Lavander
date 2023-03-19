@@ -1,0 +1,29 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade1</title>
+    </head>
+    <body>
+        <Script>
+            function ObterIniciais(){
+                var nome = prompt("Nome; ");
+                var result = nome.split(/\s+/).splice(0).length;
+             if(result == 1){
+            
+            console.log(nome.charAt(0).toUpperCase() +"X")
+             }
+                else{
+            
+           console.log(nome.charAt(0).toUpperCase() + nome.split(' ').slice(-1)[0].charAt().toUpperCase());
+                }
+            }
+    ObterIniciais();
+
+        </Script>
+    </body>
+    </html>
+</html>
