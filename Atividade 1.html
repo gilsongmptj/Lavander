@@ -9,8 +9,8 @@
     </head>
     <body>
         <Script>
-            function ObterIniciais(){
-                var nome = prompt("Nome; ");
+            function ObterIniciais(nome){
+                
                 var result = nome.split(/\s+/).splice(0).length;
              if(result == 1){
             
@@ -21,7 +21,7 @@
            console.log(nome.charAt(0).toUpperCase() + nome.split(' ').slice(-1)[0].charAt().toUpperCase());
                 }
             }
-    ObterIniciais();
+    ObterIniciais("Gilson Marcos");
 
         </Script>
     </body>
